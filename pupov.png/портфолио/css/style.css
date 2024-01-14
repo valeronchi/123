@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=El+Messiri&family=Montserrat&family=Roboto&family=Tenor+Sans&display=swap');
+body
+{
+    padding: 0 auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: #232323;
+}
+.container
+{
+    padding: 0 auto;
+    margin: 0 auto;
+    width: 100%;
+}
+a
+{
+    text-decoration: none;
+}
+.header
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+.rec
+{
+    width: 21px;
+    height: 21px;
+    background-image: url(../img/rec.png);
+    display: flex;
+    justify-content: right;
+    margin-right: 18px;
+    margin-top: 12px;
+    margin-left: 90%;
+}
+/* лого */
+.avatar
+{
+    width: 209px;
+    height: 209px;
+    background-image: url(../img/avatar.svg);
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+/* иконки */
+.icons
+{
+    width: 295px;
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 54px;
+    justify-content: space-between;
+}
+.icon1
+{
+    width: 86px;
+    height: 86px;
+    display: flex;
+    background-image: url(../img/tg.svg);
+}
+.icon2
+{
+    width: 86px;
+    height: 86px;
+    display: flex;
+    background-image: url(../img/500px.svg);
+}
+.icon3
+{
+    width: 86px;
+    height: 86px;
+    display: flex;
+    background-image: url(../img/vk.svg);
+}
+.zag
+{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+display: flex;
+justify-content: center;
+margin-top: 134px;
+}
+/* галлерея */
+.gallery {
+    background-color: #181818;
+    padding: 50px;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+    grid-auto-flow: dense;
+    grid-auto-rows: 240px;
+    grid-gap: 10px;
+    margin-top: 41px;
+}
+  
+.gallery-item
+{
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+  
+img
+{
+    max-width: 100%;
+    height: auto;
+    background: center / cover;
+}
+.gallery-item:nth-child(5n)
+{
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.gallery-item:nth-child(2n)
+{
+    grid-row: span 2;
+}
+#image-upload
+{
+    display: none;
+}
+  
+#add-image-button
+{
+    margin-top: 20px;
+}
+button
+{
+    background-color: #D53426;
+    border-radius: 15px;
+    color: white;
+    font-family: Montserat;
+}
+.back
+{
+    margin-left: 25px;
+    display: flex;
+}
+/* одаптация */
+@media(max-width: 800px)
+{
+    .avatar
+{
+    width: 133px;
+    height: 133px;
+    background-image: url(../img/avamini.svg);
+}
+.icons
+{
+    width: 173px;
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 23px;
+    justify-content: space-between;
+}
+.icon1
+{
+    width: 51px;
+    height: 51px;
+    display: flex;
+    background-image: url(../img/tgmini.svg);
+}
+.icon2
+{
+    width: 51px;
+    height: 51px;
+    display: flex;
+    background-image: url(../img/500pxmini.svg);
+}
+.icon3
+{
+    width: 51px;
+    height: 51px;
+    display: flex;
+    background-image: url(../img/vkmini.svg);
+}
+}

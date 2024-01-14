@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=El+Messiri&family=Montserrat&family=Roboto&family=Tenor+Sans&display=swap');
+body
+{
+    padding: 0 auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: #232323;
+}
+.container
+{
+    padding: 0 auto;
+    margin: 0 auto;
+    width: 100%;
+}
+a
+{
+    text-decoration: none;
+}
+.header
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+.rec
+{
+    width: 21px;
+    height: 21px;
+    background-image: url(../img/rec.png);
+    display: flex;
+    justify-content: right;
+    margin-right: 18px;
+    margin-top: 12px;
+    margin-left: 90%;
+}
+/* лого */
+.avatar
+{
+    width: 209px;
+    height: 209px;
+    background-image: url(../img/avatar.svg);
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+/* иконки */
+.icons
+{
+    width: 295px;
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 54px;
+    justify-content: space-between;
+}
+.icon1
+{
+    width: 86px;
+    height: 86px;
+    display: flex;
+    background-image: url(../img/tg.svg);
+}
+.icon2
+{
+    width: 86px;
+    height: 86px;
+    display: flex;
+    background-image: url(../img/500px.svg);
+}
+.icon3
+{
+    width: 86px;
+    height: 86px;
+    display: flex;
+    background-image: url(../img/vk.svg);
+}
+/* карточки контактов */
+.zag
+{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+display: flex;
+justify-content: center;
+margin-top: 134px;
+}
+.section_carts
+{
+    background-color: #181818;
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 44px;
+    padding-top: 60px;
+    padding-bottom: 148px;
+
+}
+.cart_container
+{
+    width: 60%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.section_carts-cart
+{
+    width: 300px;
+    height: 330px;
+    background-color: #232323;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 61px;
+    border-radius: 25px;
+}
+.cart_icon
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 26px;
+}
+.cart_zag
+{
+    color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+align-items: center;
+margin-top: 30px;
+}
+.cart_text
+{
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 20px;
+text-align: center;
+align-items: center;
+}
+.cart_text a
+{
+    color: #FFF;
+    text-decoration: none;
+}
+.back
+{
+    margin-left: 25px;
+    display: flex;
+    padding-top: 21px;
+}
+/* одаптация */
+@media(max-width: 800px)
+{
+    .avatar
+{
+    width: 133px;
+    height: 133px;
+    background-image: url(../img/avamini.svg);
+}
+.icons
+{
+    width: 173px;
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 23px;
+    justify-content: space-between;
+}
+.icon1
+{
+    width: 51px;
+    height: 51px;
+    display: flex;
+    background-image: url(../img/tgmini.svg);
+}
+.icon2
+{
+    width: 51px;
+    height: 51px;
+    display: flex;
+    background-image: url(../img/500pxmini.svg);
+}
+.icon3
+{
+    width: 51px;
+    height: 51px;
+    display: flex;
+    background-image: url(../img/vkmini.svg);
+}
+}
+@media(max-width: 500px)
+{
+    .cart_container
+{
+    width: 100%;
+}
+}

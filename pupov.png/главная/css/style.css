@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=El+Messiri&family=Montserrat&family=Roboto&family=Tenor+Sans&display=swap');
+body
+{
+    padding: 0 auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: #232323;
+}
+.container
+{
+    padding: 0 auto;
+    margin: 0 auto;
+    width: 100%;
+}
+a
+{
+    text-decoration: none;
+}
+.header
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+.rec
+{
+    width: 21px;
+    height: 21px;
+    background-image: url(../img/rec.png);
+    display: flex;
+    justify-content: right;
+    margin-right: 18px;
+    margin-top: 12px;
+    margin-left: 90%;
+}
+/* лого */
+.avatar
+{
+    width: 209px;
+    height: 209px;
+    background-image: url(../img/avatar.svg);
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+/* иконки */
+.icons
+{
+    width: 295px;
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 54px;
+    justify-content: space-between;
+}
+.icon1
+{
+    width: 86px;
+    height: 86px;
+    display: flex;
+    background-image: url(../img/tg.svg);
+}
+.icon2
+{
+    width: 86px;
+    height: 86px;
+    display: flex;
+    background-image: url(../img/500px.svg);
+}
+.icon3
+{
+    width: 86px;
+    height: 86px;
+    display: flex;
+    background-image: url(../img/vk.svg);
+}
+.content
+{
+    margin: 0 auto;
+    margin-top: 112px;
+    width: 565px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+/* нав меню */
+.content_item
+{
+    width: 100%;
+    height: 114px;
+    border-radius: 15px;
+    border: 5px solid #FFF;
+    background: #232323;
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.content_item-text
+{
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 26px;
+}
+.content_item-text a
+{
+    color: #FFF;
+    text-decoration: none;
+}
+.content_item-try
+{
+    display: flex;
+    margin-right: 15px;
+}
+/* одаптация */
+@media(max-width: 800px)
+{
+    .avatar
+{
+    width: 133px;
+    height: 133px;
+    background-image: url(../img/avamini.svg);
+}
+.icons
+{
+    width: 173px;
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 23px;
+    justify-content: space-between;
+}
+.icon1
+{
+    width: 51px;
+    height: 51px;
+    display: flex;
+    background-image: url(../img/tgmini.svg);
+}
+.icon2
+{
+    width: 51px;
+    height: 51px;
+    display: flex;
+    background-image: url(../img/500pxmini.svg);
+}
+.icon3
+{
+    width: 51px;
+    height: 51px;
+    display: flex;
+    background-image: url(../img/vkmini.svg);
+}
+.content
+{
+    margin: 0 auto;
+    margin-top: 112px;
+    width: 325px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+}
